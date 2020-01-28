@@ -1,2 +1,2 @@
 # user-interface
-React Developers here (Unit 2 &amp; 3).
+User Interface designers here (Unit 1).
