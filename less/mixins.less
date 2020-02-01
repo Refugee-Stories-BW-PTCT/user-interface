@@ -1,0 +1,33 @@
+// Mixins Here
+
+.center {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.btn {
+  font-size: 1.8rem;
+  width: 100px;
+  padding: 2%;
+  border: 1px solid grey;
+  border-radius: 5%;
+  display: flex;
+  justify-content: center;
+  background-color: @btn-bg-color;
+  color: @porcelain;
+}
+
+.hover {
+  &:hover {
+    background-color: @porcelain;
+    color: @btn-bg-color;
+  }
+}
+
+.phone (@flexd) {
+  display: flex;
+  flex-direction: @flexd;
+  justify-content: center;
+  align-items: center;
+}
