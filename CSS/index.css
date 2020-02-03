@@ -1,23 +1,175 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
 body {
   font-family: 'Kalam', cursive;
   font-family: 'Raleway', sans-serif;
 }
+html {
+  font-size: 62.5%;
+}
 h1 {
   font-family: kalam;
   text-align: center;
+  margin-top: 8%;
+  font-size: 3rem;
 }
-h1 .beautifulText {
-  margin-top: 50%;
+.beautifulText {
+  margin-top: -5%;
+  margin-bottom: 5%;
 }
 strong {
   color: #026670;
 }
 nav {
   text-align: center;
-  margin: 5%;
+  margin: 5%, 0%, 5%, 0%;
   background-color: #026670;
   padding: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 a {
   color: #FEF9C7;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+a:hover {
+  color: #7E685A;
+}
+.mainImage {
+  margin-bottom: 70%;
+}
+.mainImage img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  position: absolute;
+  clip: rect(0%, 100%, 50%, 100%);
 }

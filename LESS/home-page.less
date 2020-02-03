@@ -2,10 +2,13 @@
 h1 {
     font-family: kalam; 
     text-align: center;
+    margin-top: 8%;  
+    font-size: 3rem;
+}
 
-    .beautifulText {
-        margin-top: 50%;
-    }
+.beautifulText {
+    margin-top: -5%;
+    margin-bottom: 5%;
 }
 
 strong {
@@ -14,15 +17,34 @@ strong {
 
 nav {
     text-align: center;
-    margin: 5%;
-    background-color: #026670;
+    margin: 5%, 0%, 5%, 0%;
+    background-color: @dark-tourquoise;
     padding: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 a {
-    color: #FEF9C7;
+    color: @light-yellow;
+    text-decoration: none;
+    font-size: 1.5rem;
+    
+    
 }
 
-.carousel {
+a:hover {
+    color: @brown;
+}
 
+.mainImage {
+    margin-bottom: 70%;
+
+    img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        position: absolute;
+        clip: rect(0%,100%,50%,100%);
+    }
 }
