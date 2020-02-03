@@ -1,0 +1,23 @@
+body {
+  font-family: 'Kalam', cursive;
+  font-family: 'Raleway', sans-serif;
+}
+h1 {
+  font-family: kalam;
+  text-align: center;
+}
+h1 .beautifulText {
+  margin-top: 50%;
+}
+strong {
+  color: #026670;
+}
+nav {
+  text-align: center;
+  margin: 5%;
+  background-color: #026670;
+  padding: 5%;
+}
+a {
+  color: #FEF9C7;
+}
