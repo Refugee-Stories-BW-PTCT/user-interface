@@ -133,11 +133,42 @@ body {
 html {
   font-size: 62.5%;
 }
+h3 {
+  font-size: 2.5rem;
+  font-family: 'Kalam';
+}
+p {
+  font-family: 'Raleway';
+  font-size: 1.3rem;
+}
+.refugeeConnections {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  height: 20px;
+  border: 2px solid black;
+}
+.refugeeConnections .refugee {
+  font-family: 'Karam';
+}
+.refugeeConnections .connections {
+  font-family: 'Raleway';
+}
+.headerTextImage {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  padding: 2%;
+}
+.headerText {
+  margin-left: 5%;
+}
 h1 {
   font-family: kalam;
   text-align: center;
   margin-top: 8%;
-  font-size: 3rem;
+  font-size: 3.5rem;
+  width: 300px;
 }
 .beautifulText {
   margin-top: -5%;
@@ -145,6 +176,11 @@ h1 {
 }
 strong {
   color: #026670;
+}
+.headerImage img {
+  width: 200px;
+  border-radius: 0px 200px 0px 200px;
+  border: 4px solid #C2B9B0;
 }
 nav {
   text-align: center;
@@ -161,10 +197,10 @@ a {
   font-size: 1.5rem;
 }
 a:hover {
-  color: #7E685A;
+  color: #9FEDD7;
 }
 .mainImage {
-  margin-bottom: 70%;
+  margin-bottom: 55%;
 }
 .mainImage img {
   width: 100%;
@@ -172,4 +208,11 @@ a:hover {
   object-fit: cover;
   position: absolute;
   clip: rect(0%, 100%, 50%, 100%);
+}
+.circlesAndText {
+  display: flex;
+  flex-direction: row;
+  padding: 5%;
+  margin-bottom: 5%;
+  justify-content: space-evenly;
 }

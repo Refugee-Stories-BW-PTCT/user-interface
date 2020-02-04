@@ -1,9 +1,40 @@
+// .refugeeConnections {
+//     display: flex;
+//     flex-direction: row;
+//     width: 100px;
+//     height: 20px;
+//     border: 2px solid black;
+
+    .refugee {
+        font-family: 'Karam';
+    }
+
+    .connections {
+        font-family: 'Raleway';
+    }
+}
+
+.headerTextImage {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding: 2%;
+    margin-top: 10%;
+    // border: 5px solid black;
+}
+
+.headerText {
+    margin-left: 5%;
+    // border: 2px solid black;
+}
 
 h1 {
     font-family: kalam; 
     text-align: center;
     margin-top: 8%;  
-    font-size: 3rem;
+    font-size: 3.5rem;
+    width: 300px;
+    
 }
 
 .beautifulText {
@@ -13,6 +44,15 @@ h1 {
 
 strong {
     color: #026670
+}
+
+.headerImage {
+ 
+    img {
+    width: 200px;
+    border-radius: 0px 200px 0px 200px;
+    border: 4px solid @light-brown;
+    }
 }
 
 nav {
@@ -28,17 +68,15 @@ nav {
 a {
     color: @light-yellow;
     text-decoration: none;
-    font-size: 1.5rem;
-    
-    
+    font-size: 1.5rem; 
 }
 
 a:hover {
-    color: @brown;
+    color: @sea-foam;
 }
 
 .mainImage {
-    margin-bottom: 70%;
+    margin-bottom: 55%;
 
     img {
         width: 100%;
@@ -47,4 +85,12 @@ a:hover {
         position: absolute;
         clip: rect(0%,100%,50%,100%);
     }
+}
+
+.circlesAndText {
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    margin-bottom: 5%;
+    justify-content: space-evenly;
 }
