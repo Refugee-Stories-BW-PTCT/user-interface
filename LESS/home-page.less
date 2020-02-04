@@ -1,25 +1,31 @@
-// .refugeeConnections {
-//     display: flex;
-//     flex-direction: row;
-//     width: 100px;
-//     height: 20px;
-//     border: 2px solid black;
-
-    .refugee {
-        font-family: 'Karam';
-    }
-
-    .connections {
-        font-family: 'Raleway';
-    }
+.refugeeConnections {
+    display: flex;
+    flex-direction: row;
+    background-color: @brown;
+    padding: 2%;
+    color: white;
 }
+
+.refugee {
+    display: flex;
+    font-family: 'Kalam';
+    text-align: center;
+    font-size: 1.8rem;
+    }
+
+.connections {
+    display: flex;
+    font-family: 'Raleway';
+    text-align: center;
+    font-size: 1.5rem;
+    }
 
 .headerTextImage {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     padding: 2%;
-    margin-top: 10%;
+    margin-top: 2%;
     // border: 5px solid black;
 }
 
@@ -51,7 +57,7 @@ strong {
     img {
     width: 200px;
     border-radius: 0px 200px 0px 200px;
-    border: 4px solid @light-brown;
+    .borderForImages();
     }
 }
 
@@ -93,4 +99,37 @@ a:hover {
     padding: 5%;
     margin-bottom: 5%;
     justify-content: space-evenly;
+}
+
+.subHead1 {
+    text-align: center;
+    margin: 2%;
+}
+
+.subHead2 {
+    text-align: center;
+    margin: 2%;
+}
+
+.subHead3 {
+    text-align: center;
+    margin: 2%;
+}
+
+.stringBoyImg {
+    img {
+        .sectionImgsStyle(); 
+    }
+}
+
+.asianFamilyImg {
+    img {
+        .sectionImgsStyle(); 
+    }
+}
+
+.smilingWomanImg {
+    img {
+        .sectionImgsStyle(); 
+    }
 }
