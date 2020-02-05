@@ -16,6 +16,8 @@
   flex-direction: wrap;
   justify-content: space-evenly;
   padding: 5%;
+  text-align: center;
+  width: 50%;
 }
 .squarePhotos {
   width: 150px;
@@ -244,14 +246,13 @@ a:hover {
   color: #9FEDD7;
 }
 .mainImage {
-  margin-bottom: 45%;
-}
-.mainImage img {
-  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1559173525-71a8abaaba32?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: repeat;
   height: 300px;
-  object-fit: cover;
-  position: absolute;
-  clip: rect(0%, 100%, 50%, 100%);
+  max-width: 100%;
+  background-attachment: fixed;
 }
 .circlesAndText {
   display: flex;
@@ -319,18 +320,27 @@ a:hover {
   width: 100%;
   font-size: 4rem;
 }
+.squaresAndText1 {
+  text-align: center;
+}
 .squaresAndText2 {
   display: flex;
   flex-direction: wrap;
   justify-content: space-evenly;
   padding: 5%;
+  text-align: center;
+  width: 50%;
+  margin-left: 20%;
 }
 .squaresAndText3 {
   display: flex;
   flex-direction: wrap;
   justify-content: space-evenly;
   padding: 5%;
-  margin-left: 8%;
+  text-align: center;
+  width: 50%;
+  margin-left: 20%;
+  margin-top: -10%;
 }
 .muhammad img {
   width: 150px;
@@ -355,10 +365,12 @@ a:hover {
   height: 150px;
   border-radius: 10%;
   border: 4px solid #026670;
-  margin-left: 10%;
 }
 .subHead4 {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15%;
 }
 .subHead4 a {
   color: #7E685A;
@@ -368,6 +380,7 @@ a:hover {
 }
 .subHead5 {
   text-align: center;
+  padding: 15%;
 }
 .subHead5 a {
   color: #7E685A;
@@ -377,6 +390,7 @@ a:hover {
 }
 .subHead6 {
   text-align: center;
+  padding: 15%;
 }
 .subHead6 a {
   color: #7E685A;
@@ -386,6 +400,7 @@ a:hover {
 }
 .subHead7 {
   text-align: center;
+  padding: 15%;
 }
 .subHead7 a {
   color: #7E685A;
@@ -413,15 +428,16 @@ a:hover {
   width: 150px;
   background-color: #7E685A;
   border-radius: 5%;
-  padding-top: 10px;
+  padding-top: 15px;
   padding-bottom: 10px;
   text-align: center;
   display: flex;
   justify-content: center;
   margin-left: 40%;
 }
-.call2action a a:hover {
-  color: #C2B9B0;
+.call2action a:hover {
+  background-color: #C2B9B0;
+  color: #026670;
 }
 .bottomLinks h3 {
   margin-left: 4%;
@@ -431,6 +447,9 @@ a:hover {
 }
 .bottomLinks a {
   color: #7E685A;
+}
+.bottomLinks a:hover {
+  color: #C2B9B0;
 }
 .bottomLinks1 {
   display: flex;
@@ -470,4 +489,22 @@ a:hover {
 }
 .bottomLinks3 a a:hover {
   color: #C2B9B0;
+}
+.socialMedia {
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.socialMedia img {
+  width: 50px;
+  height: 50px;
+  margin-left: 2%;
+}
+.footer {
+  border: 2px solid black;
+}
+.footer p {
+  margin-top: 10%;
+  text-align: center;
+  border: 2px solid black;
 }
