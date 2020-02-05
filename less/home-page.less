@@ -33,16 +33,16 @@
   .charity {
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
+    align-items: center;
     width: 100%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 24%;
+    margin-right: 24%;
     @media @phone {
       .phone(column);
     }
 
     img {
-      width: 28%;
+      width: 20%;
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
@@ -81,6 +81,7 @@
     @media @phone {
       .phone(column-reverse);
       flex-wrap: wrap;
+      margin-top: 10px;
     }
 
     .sponsor-text {
@@ -109,6 +110,8 @@
       @media @phone {
         .phone(column);
         flex-wrap: flex;
+        padding-bottom: 2%;
+        margin-left: -4%;
       }
 
       img {
@@ -124,16 +127,18 @@
 } // home
 .top {
   display: flex;
-  padding: 3%;
+  padding: 2%;
   flex-direction: column;
   align-content: center;
   justify-content: center;
   width: 100%;
-  margin: 0 auto;
   background-color: @light-yellow;
+  margin: 0 auto;
   align-items: center;
   @media @phone {
     .phone(column);
+    justify-content: center;
+    align-items: center;
   }
 
   h1 {
