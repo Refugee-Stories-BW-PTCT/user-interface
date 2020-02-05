@@ -26,11 +26,15 @@
 .bottomLinksSetUp {
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: center;
 }
 .bottomLinksSetUp a {
-  margin-left: 4%;
+  margin-left: 8%;
+  margin-right: 2%;
   margin-top: 2%;
+}
+.bottomLinksSetUp a a:hover {
+  color: #C2B9B0;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -406,41 +410,64 @@ a:hover {
 .call2action a {
   font-size: 3rem;
   margin-top: 8%;
+  width: 150px;
+  background-color: #7E685A;
+  border-radius: 5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 40%;
+}
+.call2action a a:hover {
+  color: #C2B9B0;
 }
 .bottomLinks h3 {
   margin-left: 4%;
   margin-top: 4%;
+  display: flex;
+  justify-content: center;
 }
 .bottomLinks a {
   color: #7E685A;
 }
-.bottomLinks a:hover {
-  color: #C2B9B0;
-}
 .bottomLinks1 {
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: center;
 }
 .bottomLinks1 a {
-  margin-left: 4%;
+  margin-left: 8%;
+  margin-right: 2%;
   margin-top: 2%;
+}
+.bottomLinks1 a a:hover {
+  color: #C2B9B0;
 }
 .bottomLinks2 {
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: center;
 }
 .bottomLinks2 a {
-  margin-left: 4%;
+  margin-left: 8%;
+  margin-right: 2%;
   margin-top: 2%;
+}
+.bottomLinks2 a a:hover {
+  color: #C2B9B0;
 }
 .bottomLinks3 {
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: center;
 }
 .bottomLinks3 a {
-  margin-left: 4%;
+  margin-left: 8%;
+  margin-right: 2%;
   margin-top: 2%;
+}
+.bottomLinks3 a a:hover {
+  color: #C2B9B0;
 }
