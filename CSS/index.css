@@ -500,11 +500,8 @@ a:hover {
   height: 50px;
   margin-left: 2%;
 }
-.footer {
-  border: 2px solid black;
-}
-.footer p {
-  margin-top: 10%;
+footer p {
+  margin-top: 5%;
+  margin-left: 7%;
   text-align: center;
-  border: 2px solid black;
 }
