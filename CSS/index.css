@@ -633,3 +633,56 @@ footer a {
 footer a:hover {
   color: #026670;
 }
+.ourTeam {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  padding-left: 15%;
+  padding-bottom: 5%;
+  margin-bottom: 10%;
+  border-bottom: 2px solid #026670;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.ourTeam h1 {
+  font-size: 8rem;
+  color: #7E685A;
+}
+.staffPhotos p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: 5%;
+  font-size: 4rem;
+  width: 800px;
+}
+.staffPhotos strong {
+  font-family: "Kalam";
+  font-size: 6rem;
+}
+.staffPhotos .amanda {
+  display: flex;
+  flex-direction: row;
+}
+.staffPhotos .amy {
+  display: flex;
+  flex-direction: row;
+}
+.staffPhotos .anam {
+  display: flex;
+  flex-direction: row;
+}
+.staffPhotos .luis {
+  display: flex;
+  flex-direction: row;
+}
+.staffPhotos .yasir {
+  display: flex;
+  flex-direction: row;
+}
+.staffPhotos .vlad {
+  display: flex;
+  flex-direction: row;
+}
