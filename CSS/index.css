@@ -237,6 +237,11 @@ p {
     margin-top: -5%;
   }
 }
+@media (min-width: 500px) {
+  .headerImage {
+    margin-left: 10%;
+  }
+}
 h1 {
   font-family: kalam;
   margin-top: 8%;
@@ -249,6 +254,12 @@ h1 {
     width: 500px;
     margin-right: 200px;
     margin-top: 2%;
+  }
+}
+@media (min-width: 500px) {
+  h1 {
+    font-size: 3rem;
+    margin-right: 10%;
   }
 }
 .beautifulText {
