@@ -275,7 +275,13 @@ a:hover {
 
         a:hover {
             color: @light-brown;
+        }     
+
+    h3 {
+        @media (min-width: 1000px) {
+        font-size:4rem;
         }
+    }
 }
 
 .subHead5 {
@@ -291,6 +297,12 @@ a:hover {
         a:hover {
             color: @light-brown;
         }
+
+     h3 {
+        @media (min-width: 1000px) {
+        font-size:4rem;
+        }
+    }
 }
 
 .subHead6 {
@@ -305,12 +317,18 @@ a:hover {
         a:hover {
             color: @light-brown;
         }
+
+     h3 {
+        @media (min-width: 1000px) {
+        font-size:4rem;
+        }
+    }
 }
 
 .subHead7 {
     text-align: center;
     padding: 15%;
-    // border: 2px solid black;
+    // border: 2px solid black
 
     a {
         color: @brown;
@@ -319,6 +337,12 @@ a:hover {
         a:hover {
             color: @light-brown;
         }
+    
+     h3 {
+        @media (min-width: 1000px) {
+        font-size:4rem;
+        }
+    }
 }
 
 .call2action {
@@ -335,6 +359,11 @@ a:hover {
     text-align: center;
     padding-top: 30%;
 
+    @media (min-width: 1000px) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
     a {
         font-size: 3rem;
         margin-top: 8%;
@@ -344,9 +373,9 @@ a:hover {
         padding-top: 15px;
         padding-bottom: 10px;
         text-align: center;
-        display: flex;
-        justify-content: center;
-        margin-left: 40%;
+        // display: flex;
+        // justify-content: centent;
+        margin-left: 45%;
     }
 
         a:hover {
@@ -356,6 +385,8 @@ a:hover {
 }
 
 .bottomLinks {
+
+    margin-right: 3%;
 
     h3 {
         margin-left: 4%;
@@ -390,6 +421,7 @@ a:hover {
     text-align: center;
     margin-top: 5%;
     margin-left: 5%;
+    margin-right: 4%;
 
     img {
         width: 50px;
@@ -415,5 +447,74 @@ footer {
 
     a:hover {
         color: @dark-tourquoise;
+    }
+}
+
+// OUR TEAM PAGE
+
+.ourTeam {
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+    border-bottom: 2px solid @dark-tourquoise;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    h1 {
+        font-size: 8rem;
+        color: @brown;
+    }
+}
+
+.staffPhotos {
+    p {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-left: 5%;
+        // border: 2px solid black;
+        font-size: 4rem;
+        width: 800px;
+    }
+
+    strong {
+        font-family: "Kalam";
+        font-size: 6rem;
+    }
+
+    .amanda {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .amy {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .anam {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .luis {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .yasir {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .vlad {
+        display: flex;
+        flex-direction: row;
     }
 }
