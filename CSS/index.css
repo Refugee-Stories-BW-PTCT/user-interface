@@ -6,6 +6,7 @@
   margin: 2%;
   text-align: start;
   line-height: 2rem;
+  width: 30%;
 }
 .sectionImgsStyle {
   display: inline-block;
@@ -178,10 +179,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-* {
-  margin-left: 1%;
-  margin-right: 1%;
-}
 body {
   font-family: 'Kalam', cursive;
   font-family: 'Raleway', sans-serif;
@@ -209,22 +206,22 @@ p {
   display: flex;
   font-family: 'Kalam';
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 4rem;
 }
-@media (min-width: 1000px) {
+@media (max-width: 500px) {
   .refugee {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 }
 .connections {
   display: flex;
   font-family: 'Raleway';
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 4rem;
 }
-@media (min-width: 1000px) {
+@media (max-width: 500px) {
   .connections {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 }
 .headerTextImage {
@@ -233,69 +230,47 @@ p {
   justify-content: space-between;
   padding: 2%;
   margin-top: 2%;
-  margin-left: 12%;
-  width: 85%;
+  padding-left: 15%;
+  width: 75%;
+}
+@media (max-width: 500px) {
+  .headerTextImage {
+    flex-direction: column;
+  }
 }
 .headerTextImage h1 {
   margin-left: -50%;
   font-size: 5rem;
   margin-right: 2%;
 }
-@media (min-width: 500px) {
-  .headerTextImage h1 {
-    font-size: 1.5rem;
-    margin-left: 50%;
-  }
+.headerText h1 {
+  font-family: kalam;
+  margin-top: 8%;
+  width: 500px;
+  padding-left: 20%;
+  font-size: 5rem;
+  margin-right: 200px;
+  margin-top: 2%;
 }
-@media (min-width: 500px) {
-  .headerTextImage {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    margin-left: 0%;
-  }
-}
-@media (min-width: 1000px) {
-  .headerText {
-    margin-top: 1%;
+@media (max-width: 500px) {
+  .headerText h1 {
+    font-size: 3rem;
   }
 }
 .headerImage img {
-  width: 100px;
   border-radius: 0px 200px 0px 200px;
   margin-left: 40%;
   border: 4px solid #C2B9B0;
-}
-@media (min-width: 500px) {
-  .headerImage img {
-    width: 60%;
-    margin-bottom: 40%;
-    margin-left: 25%;
-  }
-}
-@media (min-width: 1000px) {
-  .headerImage img {
-    width: 500px;
-  }
-}
-h1 {
-  font-family: kalam;
-  margin-top: 8%;
-  font-size: 3.5rem;
   width: 300px;
+  margin-right: 30%;
+  margin-left: 3%;
+  margin-top: -5%;
 }
-@media (min-width: 1000px) {
-  h1 {
-    font-size: 5rem;
-    width: 500px;
-    margin-right: 200px;
-    margin-top: 2%;
-  }
-}
-@media (min-width: 500px) {
-  h1 {
-    font-size: 0.5rem;
-    margin-right: 10%;
+@media (max-width: 500px) {
+  .headerImage {
+    width: 200px;
+    margin-bottom: 5%;
+    margin-left: 25%;
   }
 }
 .beautifulText {
@@ -309,17 +284,11 @@ nav {
   text-align: center;
   margin: 5%, 0%, 5%, 0%;
   background-color: #026670;
-  padding: 5%;
+  padding: 2%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   max-width: 100%;
-}
-@media (min-width: 1000px) {
-  nav {
-    padding: 1.5%;
-    justify-content: space-evenly;
-  }
 }
 a {
   color: #FEF9C7;
@@ -338,7 +307,7 @@ a:hover {
   max-width: 100%;
   background-attachment: fixed;
 }
-@media (min-width: 1000px) {
+@media (max-width: 1000px) {
   .mainImage {
     height: 400px;
   }
@@ -349,13 +318,9 @@ a:hover {
   padding: 5%;
   margin-bottom: 5%;
   justify-content: space-evenly;
-}
-@media (min-width: 1000px) {
-  .circlesAndText {
-    margin: 0.5%;
-    margin-top: -5%;
-    margin-bottom: -1%;
-  }
+  margin: 0.5%;
+  margin-top: -5%;
+  margin-bottom: -1%;
 }
 .circlesAndText h3 {
   margin-bottom: 2%;
@@ -365,18 +330,21 @@ a:hover {
   margin: 2%;
   text-align: start;
   line-height: 2rem;
+  width: 30%;
 }
 .subHead2 {
   text-align: center;
   margin: 2%;
   text-align: start;
   line-height: 2rem;
+  width: 30%;
 }
 .subHead3 {
   text-align: center;
   margin: 2%;
   text-align: start;
   line-height: 2rem;
+  width: 30%;
 }
 .stringBoyImg img {
   display: inline-block;
@@ -410,36 +378,23 @@ a:hover {
 }
 .impact {
   text-align: center;
-  width: 100%;
   background-color: #C2B9B0;
   color: #7E685A;
   padding-top: 40px;
-  padding-bottom: 100px;
-}
-@media (min-width: 1000px) {
-  .impact {
-    padding: 2px;
-  }
+  padding-bottom: 40px;
+  width: auto;
 }
 .impactText {
   text-align: center;
   width: 100%;
-  font-size: 4rem;
-}
-@media (min-width: 1000px) {
-  .impactText {
-    font-size: 6rem;
-    padding-top: 80px;
-  }
+  font-family: "Kalam";
+  font-size: 6rem;
+  padding-top: 80px;
 }
 .impact p {
   font-size: 1.8rem;
   margin-top: 10%;
-}
-@media (min-width: 1000px) {
-  .impact p {
-    font-size: 3rem;
-  }
+  font-size: 3rem;
 }
 .squaresAndText1 {
   text-align: center;
@@ -523,10 +478,8 @@ a:hover {
 .subHead4 a:hover {
   color: #C2B9B0;
 }
-@media (min-width: 1000px) {
-  .subHead4 h3 {
-    font-size: 4rem;
-  }
+.subHead4 h3 {
+  font-size: 4rem;
 }
 .subHead5 {
   text-align: center;
@@ -538,10 +491,8 @@ a:hover {
 .subHead5 a:hover {
   color: #C2B9B0;
 }
-@media (min-width: 1000px) {
-  .subHead5 h3 {
-    font-size: 4rem;
-  }
+.subHead5 h3 {
+  font-size: 4rem;
 }
 .subHead6 {
   text-align: center;
@@ -553,10 +504,8 @@ a:hover {
 .subHead6 a:hover {
   color: #C2B9B0;
 }
-@media (min-width: 1000px) {
-  .subHead6 h3 {
-    font-size: 4rem;
-  }
+.subHead6 h3 {
+  font-size: 4rem;
 }
 .subHead7 {
   text-align: center;
@@ -568,10 +517,8 @@ a:hover {
 .subHead7 a:hover {
   color: #C2B9B0;
 }
-@media (min-width: 1000px) {
-  .subHead7 h3 {
-    font-size: 4rem;
-  }
+.subHead7 h3 {
+  font-size: 4rem;
 }
 .call2action {
   display: flex;
@@ -581,21 +528,14 @@ a:hover {
   font-family: 'Kalam';
   background-color: #9FEDD7;
   color: #026670;
-  padding-top: 60px;
-  padding-bottom: 120px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   max-width: 100%;
   text-align: center;
-  padding-top: 30%;
-}
-@media (min-width: 1000px) {
-  .call2action {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
 }
 .call2action a {
   font-size: 3rem;
-  margin-top: 8%;
+  margin-top: 2%;
   width: 150px;
   background-color: #7E685A;
   border-radius: 5%;
