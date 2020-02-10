@@ -1,6 +1,12 @@
 .borderForImages {
   border: 4px solid #C2B9B0;
 }
+.circleTextStyle {
+  text-align: center;
+  margin: 2%;
+  text-align: start;
+  line-height: 2rem;
+}
 .sectionImgsStyle {
   display: inline-block;
   position: relative;
@@ -172,6 +178,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+* {
+  margin-left: 1%;
+  margin-right: 1%;
+}
 body {
   font-family: 'Kalam', cursive;
   font-family: 'Raleway', sans-serif;
@@ -193,6 +203,7 @@ p {
   background-color: #7E685A;
   padding: 2%;
   color: white;
+  max-width: 100%;
 }
 .refugee {
   display: flex;
@@ -223,8 +234,10 @@ p {
   padding: 2%;
   margin-top: 2%;
 }
-.headerText {
-  margin-left: 5%;
+.headerTextImage h1 {
+  margin-left: -30%;
+  font-size: 5rem;
+  margin-right: 2%;
 }
 @media (min-width: 1000px) {
   .headerText {
@@ -232,14 +245,14 @@ p {
   }
 }
 .headerImage img {
-  width: 200px;
+  width: 50px;
   border-radius: 0px 200px 0px 200px;
   border: 4px solid #C2B9B0;
 }
 @media (min-width: 1000px) {
   .headerImage img {
     width: 50%;
-    margin-left: 40%;
+    margin-left: 30%;
     margin-top: -5%;
   }
 }
@@ -283,6 +296,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  max-width: 100%;
 }
 @media (min-width: 1000px) {
   nav {
@@ -326,17 +340,26 @@ a:hover {
     margin-bottom: -1%;
   }
 }
+.circlesAndText h3 {
+  margin-bottom: 2%;
+}
 .subHead1 {
   text-align: center;
   margin: 2%;
+  text-align: start;
+  line-height: 2rem;
 }
 .subHead2 {
   text-align: center;
   margin: 2%;
+  text-align: start;
+  line-height: 2rem;
 }
 .subHead3 {
   text-align: center;
   margin: 2%;
+  text-align: start;
+  line-height: 2rem;
 }
 .stringBoyImg img {
   display: inline-block;
@@ -543,7 +566,7 @@ a:hover {
   color: #026670;
   padding-top: 60px;
   padding-bottom: 120px;
-  width: 100%;
+  max-width: 100%;
   text-align: center;
   padding-top: 30%;
 }
