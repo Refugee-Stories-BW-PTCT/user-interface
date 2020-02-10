@@ -31,6 +31,15 @@
   text-align: center;
   width: 50%;
 }
+@media (max-width: 500px) {
+  .sectionSquaresAndText {
+    flex-direction: column;
+    line-height: 4rem;
+  }
+  .sectionSquaresAndText a {
+    font-size: 1.5rem;
+  }
+}
 .squarePhotos {
   width: 150px;
   height: 150px;
@@ -476,6 +485,15 @@ a:hover {
   width: 50%;
   margin-left: 20%;
 }
+@media (max-width: 500px) {
+  .squaresAndText2 {
+    flex-direction: column;
+    line-height: 4rem;
+  }
+  .squaresAndText2 a {
+    font-size: 1.5rem;
+  }
+}
 .squaresAndText3 {
   display: flex;
   flex-direction: wrap;
@@ -485,6 +503,15 @@ a:hover {
   width: 50%;
   margin-left: 20%;
   margin-top: -10%;
+}
+@media (max-width: 500px) {
+  .squaresAndText3 {
+    flex-direction: column;
+    line-height: 4rem;
+  }
+  .squaresAndText3 a {
+    font-size: 1.5rem;
+  }
 }
 .muhammad img {
   width: 150px;
