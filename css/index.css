@@ -1,0 +1,517 @@
+.center {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+.btn {
+  font-size: 1.8rem;
+  width: 200px;
+  padding: 2%;
+  border: 1px solid grey;
+  border-radius: 5%;
+  display: flex;
+  justify-content: center;
+  background-color: #026670;
+  color: #fef9c7;
+}
+.hover:hover {
+  background-color: #fef9c7;
+  color: #026670;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: "Raleway", sans-serif;
+  color: #7e685a;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Kalam", cursive;
+  color: #fec181;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  padding: 2%;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 7px solid #026670;
+  margin: 0 auto;
+  background-color: black;
+  align-items: center;
+}
+@media (max-width: 500px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+  }
+}
+nav a {
+  text-decoration: none;
+  color: #fec181;
+  font-size: 2rem;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media (max-width: 500px) {
+  nav a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+  }
+}
+footer {
+  color: #7e685a;
+  background: #fef9c7;
+  padding: 20px 0;
+  border: 1px double #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+@media (max-width: 500px) {
+  .home {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+}
+.home .intro {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.home .intro h2 {
+  padding: 15px;
+}
+.home .intro p {
+  padding: 0 15px;
+}
+@media (max-width: 500px) {
+  .home .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 500px) {
+  .home .intro img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+.home .charity {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  .home .charity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.home .charity img {
+  width: 20%;
+  margin: 20px 2.5%;
+  border-radius: 20px;
+  height: 100%;
+}
+@media (max-width: 500px) {
+  .home .charity img {
+    width: 90%;
+  }
+}
+.home .middleparagraph {
+  padding: 15px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+@media (max-width: 500px) {
+  .home .middleparagraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+.home .middleparagraph h3 {
+  margin-top: 11px;
+}
+.home .middleparagraph p {
+  margin-top: 13px;
+}
+.home .sponsor {
+  margin-top: 50px;
+  margin-left: 18%;
+  margin-right: 18%;
+  border-top: 1px solid #dee2e6;
+  padding: 3% 3%;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 500px) {
+  .home .sponsor {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+}
+.home .sponsor .sponsor-text {
+  width: 50%;
+}
+@media (max-width: 500px) {
+  .home .sponsor .sponsor-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+.home .sponsor .sponsor-text h3 {
+  margin-bottom: 10px;
+}
+.home .sponsor .sponsor-text p {
+  margin-bottom: 26px;
+}
+.home .sponsor .sponsor-text .btn:hover {
+  background-color: #fef9c7;
+  color: #026670;
+}
+.home .sponsor .child-img {
+  width: 46%;
+  margin-left: 4%;
+}
+@media (max-width: 500px) {
+  .home .sponsor .child-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: flex;
+    padding-bottom: 2%;
+    margin-left: -4%;
+  }
+}
+.home .sponsor .child-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home .sponsor .child-img img {
+    width: auto;
+  }
+}
+.top {
+  display: flex;
+  padding: 2%;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #fef9c7;
+  margin: 0 auto;
+  align-items: center;
+}
+@media (max-width: 500px) {
+  .top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+}
+.top h1 {
+  font-size: 5rem;
+  padding-left: 3%;
+  padding-right: 3%;
+  color: #7e685a;
+}
+.intro {
+  box-sizing: border-box;
+  padding: 10px;
+  /* Slideshow container */
+  /* Hide the images by default */
+  /* Next & previous buttons */
+  /* Position the "next button" to the right */
+  /* On hover, add a black background color with a little bit see-through */
+  /* Caption text */
+  /* Number text (1/3 etc) */
+  /* The dots/bullets/indicators */
+  /* Fading animation */
+}
+@media (max-width: 500px) {
+  .intro {
+    padding: 2%;
+    width: 100%;
+  }
+}
+.intro .slideshow-container {
+  max-width: 700px;
+  position: relative;
+  margin: auto;
+}
+.intro .slideshow-container img {
+  border-radius: 10px;
+}
+.intro .mySlides {
+  display: none;
+}
+.intro .prev,
+.intro .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.intro .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.intro .prev:hover,
+.intro .next:hover {
+  background-color: rgba(1, 44, 46, 0.8);
+}
+.intro .text {
+  color: #9fedd7;
+  font-size: 1.5rem;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  background: rgba(115, 117, 116, 0.6);
+}
+.intro .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.intro .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.intro .active,
+.intro .dot:hover {
+  background-color: #717171;
+}
+.intro .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}

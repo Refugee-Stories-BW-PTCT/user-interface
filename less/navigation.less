@@ -1,0 +1,29 @@
+// Navigation code here
+
+nav {
+  display: flex;
+  padding: 2%;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 7px solid @teal;
+  margin: 0 auto;
+  background-color: @nav-bg;
+  align-items: center;
+  @media @phone {
+    .phone(column);
+    padding: 2%;
+  }
+  a {
+    text-decoration: none;
+    color: @nav-font;
+    font-size: 2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    @media @phone {
+      .phone(column);
+      padding: 2%;
+    }
+  }
+}
